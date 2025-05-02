@@ -13,7 +13,6 @@ typedef struct
     int end;
 } thread_data;
 
-// تابع مرتب‌سازی حبابی
 void bubble_sort(int arr[], int start, int end)
 {
     for (int i = start; i < end; i++)
